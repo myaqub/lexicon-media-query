@@ -1,0 +1,40 @@
+nav {
+
+    background-color: bisque;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.logo {
+
+    background-color: aquamarine;
+    
+   font-size: 70px;
+
+}
+
+@media screen and ( max-width: 800px)
+{
+
+    nav {
+
+        background-color: red;
+    }
+}
+
+@media  screen and (max-width: 570px)
+{
+
+    nav {
+    flex-direction: column;
+
+    }
+.logo {
+
+    font-size: 30px;
+}
+
+}
+
